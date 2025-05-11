@@ -1,0 +1,56 @@
+.about {
+  min-height: 120dvh;
+  background-image: linear-gradient(to bottom left, #eaeefef8 50%, #183dc2);
+}
+
+h1 {
+  font-size: 5.625rem;
+  flex-grow: 0;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 1px #000;
+  background-image: linear-gradient(to bottom, #000 0%, #001354);
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  letter-spacing: -5.85px;
+  line-height: 1;
+  text-align: left;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-discriptions {
+  color: #010d3e;
+  line-height: 1.41;
+}
+
+.cog {
+  animation: "animationcog" 4s infinite;
+}
+
+@keyframes animationcog {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.625rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.noodle,
+.cylinder {
+  animation: "animationc" 3s infinite;
+}
+@keyframes animationc {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0.625rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

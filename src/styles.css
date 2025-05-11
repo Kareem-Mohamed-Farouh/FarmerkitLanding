@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@plugin "tailwindcss-primeui";
+@custom-variant dark (&:where(.my-app-dark, .my-app-dark *)); /* dark mode configuration */
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+@source "../node_modules/flowbite";
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+:root {
+  font-family: "DM Sans", sans-serif;
+}
+body {
+}
