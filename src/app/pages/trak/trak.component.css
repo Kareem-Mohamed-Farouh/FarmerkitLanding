@@ -31,7 +31,7 @@ p span {
   flex-flow: column;
   color: rgb(66, 66, 66);
   box-shadow: 0rem 0rem 0.125rem rgb(4, 4, 4);
-  padding: 2.5rem;
+
   border-radius: 1rem;
 }
 li {
