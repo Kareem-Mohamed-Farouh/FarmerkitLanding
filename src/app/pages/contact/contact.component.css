@@ -1,15 +1,15 @@
-.feature {
-  background-image: linear-gradient(to bottom, #ffffff, #d2dcff);
+.contact {
+  background-image: linear-gradient(to top, #d2dcff, #ffffff);
 }
 
 h2 {
   flex-grow: 0;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  -webkit-text-stroke: 1px #000;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  /* -webkit-text-stroke: 1px #000; */
   background-image: linear-gradient(to bottom, #000 0%, #001354);
   font-family: "DM Sans", sans-serif;
   font-weight: bold;
-  letter-spacing: -2.85px;
+  letter-spacing: -3.85px;
   line-height: 1;
   -webkit-background-clip: text;
   background-clip: text;
@@ -20,8 +20,8 @@ h2 {
   line-height: 1.41;
 }
 
-.tube,
-.pyramid {
+.star,
+.spring {
   animation: "animationc" 5s infinite;
 }
 @keyframes animationc {

@@ -12,20 +12,13 @@ import {
 export const appConfig: ApplicationConfig = {
   providers: [
     provideZoneChangeDetection({ eventCoalescing: true }),
-    provideRouter(routes,),
-    
+    provideRouter(routes),
+
     provideClientHydration(withEventReplay()),
     provideAnimationsAsync(),
     providePrimeNG({
       theme: {
         preset: Aura,
-        options: {
-          darkModeSelector: '.my-app-dark',
-          cssLayer: {
-            name: 'primeng',
-            order: 'theme, base, primeng',
-          },
-        },
       },
     }),
   ],

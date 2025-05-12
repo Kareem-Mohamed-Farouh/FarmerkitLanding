@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { AnimateOnScrollModule } from 'primeng/animateonscroll';
 
 @Component({
-  selector: 'app-updates',
+  selector: 'app-trak',
   imports: [AnimateOnScrollModule],
-  templateUrl: './updates.component.html',
-  styleUrl: './updates.component.css',
+  templateUrl: './trak.component.html',
+  styleUrl: './trak.component.css',
 })
-export class UpdatesComponent {}
+export class TrakComponent {}

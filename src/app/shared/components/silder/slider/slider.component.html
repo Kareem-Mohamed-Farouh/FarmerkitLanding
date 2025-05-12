@@ -1,17 +1,19 @@
-<div class="md:w-[90%] mx-auto my-14 relative lenier">
-  <owl-carousel-o [options]="customOptions">
-    @for (slide of slides; track $index) {
+<section class="bg-white">
+  <div class="md:w-[90%] mx-auto py-14 relative lenier bg-blue-50">
+    <owl-carousel-o [options]="customOptions">
+      @for (slide of slides; track $index) {
 
-    <ng-template class="w-1/4" carouselSlide>
-      <img
-        [src]="slide.img"
-        [alt]="slide.img"
-        class="w-4/5 px-7"
-        [title]="slide.img"
-      />
-    </ng-template>
+      <ng-template class="w-1/4" carouselSlide>
+        <img
+          [src]="slide.img"
+          [alt]="slide.img"
+          class="w-4/5 px-7"
+          [title]="slide.img"
+        />
+      </ng-template>
 
-    }
-  </owl-carousel-o>
-  <div class="lenier absolute w-full h-full top-0 left-0 z-[99]"></div>
-</div>
+      }
+    </owl-carousel-o>
+    <div class="lenier absolute w-full h-full top-0 left-0 z-[99]"></div>
+  </div>
+</section>

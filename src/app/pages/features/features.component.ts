@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { LearnmoreComponent } from '../../shared/components/learnmore/learnmore.component';
-
+import { AnimateOnScrollModule } from 'primeng/animateonscroll';
 @Component({
   selector: 'app-features',
-  imports: [LearnmoreComponent],
+  imports: [LearnmoreComponent, AnimateOnScrollModule],
   templateUrl: './features.component.html',
   styleUrl: './features.component.css',
 })
