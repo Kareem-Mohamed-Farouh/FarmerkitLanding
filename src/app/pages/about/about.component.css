@@ -41,7 +41,7 @@ h1 {
 
 .noodle,
 .cylinder {
-  animation: "animationc" 3s infinite;
+  animation: "animationc" 4s infinite;
 }
 @keyframes animationc {
   0% {

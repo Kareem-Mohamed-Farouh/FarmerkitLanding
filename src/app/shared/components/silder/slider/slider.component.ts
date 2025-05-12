@@ -20,7 +20,7 @@ export class SliderComponent {
     autoplay: true,
     autoplayTimeout: 5000, //
     autoplayHoverPause: false,
-    navSpeed: 4000, //
+    navSpeed: 3000, //
     slideTransition: 'linear',
 
     responsive: {

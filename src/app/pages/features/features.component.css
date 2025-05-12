@@ -1,3 +1,7 @@
+.feature {
+  background-image: linear-gradient(to bottom, #ffffff, #d2dcff);
+}
+
 h2 {
   font-size: 3.325rem;
   flex-grow: 0;

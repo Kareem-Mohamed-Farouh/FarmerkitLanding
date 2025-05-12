@@ -1,4 +1,6 @@
-<div class="py-28 lg:px-[3.125rem] sm:px-[1.125rem] flex flex-col gap-10">
+<section
+  class="feature overflow-hidden py-28 lg:px-[3.125rem] sm:px-[1.125rem] flex flex-col gap-10"
+>
   <div class="flex gap-12 flex-col items-center md:w-[60%] mx-auto">
     <span
       class="inline-flex border-gray-200 font-semibold rounded-lg w-fit px-2 text-black border-[.0625rem]"
@@ -18,7 +20,7 @@
   </div>
 
   <div class="relative">
-    <img src="/product-image.png" alt="product-image" />
+    <img src="/product-image.png" class="w-full" alt="product-image" />
     <img
       src="/pyramid.png"
       class="pyramid absolute top-[20%] right-[-8%] w-1/5"
@@ -30,4 +32,17 @@
       alt=""
     />
   </div>
-</div>
+  <div
+    class="grid max-sm:grid-cols-1 sm:grid-cols-1 items-center md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-1 lg:gap-5 lg:px-10"
+  >
+    @for (data of featurData; track $index) {
+    <div class="flex flex-col mx-auto gap-2.5 mb-5 max-lg:p-10 items-start">
+      <img [src]="data.icon" class="size-6" [alt]="data.title" />
+      <h3 class="text-lg font-bold">{{ data.title }}</h3>
+      <p class="font-medium text-lg">{{ data.disc }}</p>
+
+      <app-learnmore></app-learnmore>
+    </div>
+    }
+  </div>
+</section>

@@ -1,0 +1,9 @@
+ul li {
+  transition: all 1s;
+  &:hover {
+    transform: translateX(-0.815rem) translateY(-0.515rem);
+    text-shadow: 0.925rem 0.825rem 0.1125rem rgb(8, 138, 244);
+    color: rgb(215, 215, 216);
+    cursor: pointer;
+  }
+}
