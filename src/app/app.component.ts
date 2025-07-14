@@ -13,6 +13,7 @@ import { FooterComponent } from './pages/footer/footer.component';
 import { SliderComponent } from './shared/components/silder/slider/slider.component';
 import { TrakComponent } from './pages/trak/trak.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { MarquComponent } from './shared/components/marqu/marqu.component';
 
 @Component({
   selector: 'app-root',
@@ -28,6 +29,7 @@ import { ContactComponent } from './pages/contact/contact.component';
     SliderComponent,
     TrakComponent,
     ContactComponent,
+    MarquComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

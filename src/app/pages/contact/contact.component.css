@@ -22,6 +22,7 @@ h2 {
 
 .star,
 .spring {
+  z-index: 8888;
   animation: "animationc" 5s infinite;
 }
 @keyframes animationc {
